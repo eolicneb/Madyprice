@@ -7,7 +7,6 @@ from modelos.controladores.presupuesto import ControladorDePresupuesto
 registro = RegistroEnMemoria()
 
 if __name__ == "__main__":
-    print(IPresupuesto(vendedor={'id_': 0}, cliente={'id_': 0}, total=0.0))
     registro._RegistroEnMemoria__vendedores = [{'id_': 0}, {'id_': 1}]
     registro._RegistroEnMemoria__clientes = [{'id_': 0}, {'id_': 1}]
     registro._RegistroEnMemoria__formatos = [{'id_': 0}, {'id_': 1}]
